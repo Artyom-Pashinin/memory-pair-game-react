@@ -1,0 +1,29 @@
+TODO  BASIC FUNCTIONALITY ---------
++ alert with message about finish
++ sidemenu
++ button for new game
++ remove list of images from Board
+move configurations to JSON
+move tile markup to a template file
+scores counter
++ tiles animation
++ tiles styling
+tiles back side pickture picker
+
+TODO  ADVANCED FUNCTIONALITY ---------
++ sidemenu with layout options
+choose difficulty level
+  - by amount of guesses
+  - by time
+add different amount of scores depending on difficulty level
+chose image set
+interface theme picker
+save progress
+
+TODO  PROFICIENCY FUNCTIONALITY ---------
+story mode / custom mode
+set of levels that adds up into a storyline
+bonuses
+game story description
+different options for tiles animation
+map with levels for story mode

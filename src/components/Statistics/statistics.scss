@@ -1,0 +1,20 @@
+.game-stat {
+	padding-left: var(--side-menu-width);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	color: black;
+	font-size: 1rem;
+
+	&__moves-counter {
+		color: darkgreen;
+	}
+	&__remaining-time {
+		color: darkblue;
+	}
+	&__points {
+		color: darkred;
+	}
+}
