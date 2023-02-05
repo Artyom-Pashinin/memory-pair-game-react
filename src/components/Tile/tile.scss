@@ -1,10 +1,7 @@
 .tile {
-	/* width: var(--tile-width-small);
-  height: var(--tile-height-small); */
 	background-color: transparent;
 	border-radius: var(--tile-border-radius);
 	perspective: 1000px;
-	/* for 3D */
 }
 
 .tile * {
@@ -31,14 +28,15 @@
 	/* Safari */
 }
 
-.tile-front {
+.tile-back {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 	background-color: white;
+	outline: 1px solid black;
 }
 
-.tile-back {
+.tile-front {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto 80%;
@@ -46,7 +44,7 @@
 	transform: rotateY(180deg);
 }
 
-.tile--guessed .tile-back {
+.tile--guessed .tile-front {
 	background-color: var(--tile-guessed-color-light);
 	outline: 3px solid var(--tile-guessed-color-light);
 	background-blend-mode: darken;
@@ -57,7 +55,6 @@
 }
 
 .tile--closed {
-	/* outline: 5px solid black; */
 	background-image: none;
 }
 

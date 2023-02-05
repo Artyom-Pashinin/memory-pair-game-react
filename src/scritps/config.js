@@ -31,6 +31,6 @@ export const configurations = {
       "html.png",
     ]
   },
-  imagesFolderUrl: "./images/tileFrontSide/",
-  backgroundImageUrl: "images/tileBackSide/backside.jpeg"
+  imagesFolderUrl: "./src/images/tileFrontSide/collectionIT/",
+  backgroundImageUrl: "./src/images/tileBackSide/collectionIT/backside.png"
 }
